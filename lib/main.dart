@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apis/PostAPI/login.dart';
 import 'package:flutter_apis/PostAPI/sign_up.dart';
+import 'package:flutter_apis/PostAPI/upload_image.dart';
 import 'package:flutter_apis/emaple_two.dart';
 import 'package:flutter_apis/example_four.dart';
 import 'package:flutter_apis/example_three.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: HomeScreen(),
       // home: SignUpScreen(),
-      home: Login(),
+      home: UploadImage(),
     );
   }
 }
